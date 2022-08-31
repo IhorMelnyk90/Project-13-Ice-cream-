@@ -1,0 +1,471 @@
+.contacts-section {
+  padding-bottom: 113px;
+  background-image: linear-gradient(#ffffff 0% 6%, #fff5f6 6% 100%);
+
+  @media screen and (min-width: 480px) {
+    padding-bottom: 113px;
+    background-image: linear-gradient(#ffffff 0% 6%, #fff5f6 6% 100%);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 165px;
+    background-image: linear-gradient(#ffffff 0% 8%, #fff5f6 8% 100%);
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 165px;
+    background-image: url('../images/drops/drops.png'),
+      linear-gradient(#ffffff 0% 12%, #fff5f6 12% 100%);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+  }
+}
+
+.contacts__list {
+  margin: 0 auto;
+  max-width: 220px;
+  margin-bottom: 54px;
+
+  @media screen and (min-width: 480px) {
+    max-width: 220px;
+    margin-bottom: 54px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    max-width: 700px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 81px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1050px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 86px;
+  }
+}
+
+.contacts__card {
+  padding: 43px 21px 43px 20px;
+  background: var(--white-background-color);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 50px 32px 50px 31px;
+    &:not(:last-child) {
+      margin-right: 20px;
+      margin-bottom: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    &:not(:last-child) {
+      margin-right: 31px;
+    }
+  }
+}
+
+.contacts_title-board {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  text-align: center;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+  border-radius: 4px;
+
+  @media screen and (min-width: 480px) {
+    border-radius: 4px;
+  }
+
+  @media screen and (min-width: 768px) {
+    border-radius: 6px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    border-radius: 6px;
+  }
+}
+
+.contacts_title-board-brown {
+  background-color: var(--brown-background-color);
+  width: 80px;
+
+  @media screen and (min-width: 480px) {
+    width: 80px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 73px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 73px;
+  }
+}
+
+.contacts_title-board-green {
+  background-color: var(--green-background-color);
+  width: 130px;
+
+  @media screen and (min-width: 480px) {
+    width: 130px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 138px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 138px;
+  }
+}
+
+.contacts__place {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--separating-line-color);
+
+  @media screen and (min-width: 480px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.contacts__title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+
+  color: var(--dark-text-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: 1.86;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+}
+
+.contacts_city {
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 14px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 10px;
+  }
+}
+
+.contacts__title-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--light-text-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.66;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+}
+
+.contacts__work-time {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--separating-line-color);
+
+  @media screen and (min-width: 480px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.contacts__day-text {
+  letter-spacing: 0;
+}
+
+.contacts__time-text-margin {
+  margin-bottom: 10px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
+}
+.contacts__time-text {
+  letter-spacing: 0;
+  color: var(--light-brand-color);
+}
+
+.contacts__card-item-connect {
+  padding-top: 25px;
+  padding-bottom: 0px;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 25px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 32px;
+  }
+}
+
+.contacts__title-connect {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--light-text-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.66;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+}
+
+.contacts__tel {
+  letter-spacing: 0;
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
+}
+
+.contacts__mail {
+  letter-spacing: 0;
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
+}
+
+.contacts__btn {
+  margin: 0 auto;
+  width: 161px;
+  align-items: center;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.contacts__btn-item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    &:not(:last-child) {
+      margin-bottom: 0px;
+      margin-right: 14px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.contacts__btn-location {
+  width: 161px;
+
+  @media screen and (min-width: 480px) {
+    width: 161px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 191px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 198px;
+  }
+}
+
+.contacts__btn-franchise {
+  width: 161px;
+
+  @media screen and (min-width: 480px) {
+    width: 161px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 174px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 180px;
+  }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* МОДАЛКА Our location */
+
+.backdrop {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 11;
+  transition: 0.3s all;
+}
+
+.modal__location {
+  overflow-y: scroll;
+  opacity: 0;
+  visibility: hidden;
+
+  width: 100%;
+  height: 80vh;
+  max-width: 500px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 3px;
+  background-color: var(--pink-background-color);
+  transition: 300ms linear;
+
+  @media (min-width: 480px) {
+    width: 450px;
+  }
+  @media (min-width: 768px) and(max-width:1280px) {
+    width: 450px;
+  }
+  @media (min-width: 1280px) {
+    width: 528px;
+    height: 681px;
+  }
+}
+
+.modal__location__map {
+  width: 100%;
+  height: 100%;
+}
+
+.close-modal {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
+  z-index: 35;
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
+}
+
+.modal__location.active,
+.backdrop.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: 300ms linear;
+}

@@ -1,0 +1,145 @@
+.section-about {
+  padding-top: 125px;
+  padding-bottom: 39px;
+  background-color: var(--background-color);
+  @media screen and(min-width: 768px) and (max-width: 1279px) {
+    padding-bottom: 66px;
+    padding-top: 130px;
+    background-image: none;
+  }
+  @media screen and(min-width: 1280px) {
+    background-image: url('../images/milk/milk-left.png'), url('../images/milk/milk-right.png');
+    background-size: auto, auto;
+    background-position: left 305px, right 340px;
+    background-repeat: no-repeat, no-repeat;
+    padding-top: 125px;
+  }
+}
+.about__block {
+  @media screen and(min-width: 768px) {
+    display: flex;
+  }
+}
+
+.pre-title__about {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.title__about {
+  margin-bottom: 26px;
+  text-align: center;
+  @media screen and(min-width: 768px) {
+    margin-bottom: 50px;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 55px;
+  }
+}
+
+.about-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+}
+.about-text__pre {
+  color: var(--dark-text-color);
+  margin-bottom: 47px;
+  @media screen and(min-width: 768px) {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 1.76;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-top: 51px;
+    font-size: 16px;
+    line-height: 1.76;
+  }
+}
+.about-text__main {
+  color: var(--light-text-color);
+  margin-bottom: 17px;
+  @media screen and(min-width: 768px) {
+    margin-bottom: 62px;
+    font-size: 14px;
+    line-height: 1.76;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 45px;
+    font-size: 14px;
+    line-height: 1.94;
+  }
+}
+.about-text__cont {
+  @media screen and(min-width: 768px) {
+    width: 50%;
+    margin-left: 17px;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 50%;
+    margin-left: 74px;
+  }
+}
+.about-text__modal {
+  padding-top: 15px;
+  color: var(--brand-color);
+  @media screen and(min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.76;
+  }
+  @media screen and(min-width: 1200px) {
+    font-size: 17px;
+    line-height: 1.94;
+  }
+}
+.btn-readmore-icon {
+  margin-left: 13px;
+}
+.about__picture {
+  @media screen and(min-width: 768px) {
+    width: 50%;
+  }
+}
+.about-image__main {
+  margin: 0 auto;
+  animation-name: swing;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.about-modal {
+  /* скрываете, как Вам нравится */
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all;
+  background-color: var(--pink-background-color);
+  background-image: url('../images/milk/milk-m.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 93%;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  /*  Установаем ширину окна  */
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+
+  @media screen and(min-width: 1200px) {
+    background-image: url('../images/milk/milk-d.png');
+  }
+  /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 30; /* Должен быт
+   /*   покзуем при добавлении класса актив, что и делает наш скрипт */
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
