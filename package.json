@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Yaroslav-Zozulya.github.io/project-13-ice-cream",
+  "homepage": "https://github.com/IhorMelnyk90/Project-13-Ice-cream-",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-13-ice-cream/"
+    "build": "parcel build src/*.html --public-url /Project-13-Ice-cream-/"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/IhorMelnyk90/Project-13-Ice-cream-/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
